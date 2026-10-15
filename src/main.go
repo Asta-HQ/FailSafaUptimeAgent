@@ -18,7 +18,7 @@ import (
 )
 
 // Kann beim Build via -ldflags angepasst werden
-var DefaultServerIP = "localhost:4400"
+var DefaultServerIP = "api.failsafe.asta.cx"
 var GitHubRepo = "Asta-HQ/FailSafaUptimeAgent"
 
 type GitHubAsset struct {
